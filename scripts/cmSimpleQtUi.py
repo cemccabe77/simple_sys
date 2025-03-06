@@ -14,7 +14,7 @@ import nodes as nde
 import strapRigs as stprg
 import strap
 
-from . import cmSimpleUi as customUI
+import cmSimpleUi as customUI
 
 try: # maya 2024
     from PySide2 import QtCore, QtGui, QtWidgets
